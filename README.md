@@ -24,5 +24,5 @@ Contributions are what make the open source community such an amazing place to b
 1. Fork the Project
 2. Create your folder (`git checkout -b dev/Feature`)
 3. Commit your Changes (`git commit -m 'Add some cool Feature or Blog'`)
-4. Push to the Branch (`git push origin dev/Feature`)
+4. Push to the Branch (`git push origin web/Feature`)
 5. Open a Pull Request
