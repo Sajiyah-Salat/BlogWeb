@@ -9,7 +9,7 @@ This Website is Made with the use of only html and css so Any beginner person ca
 ### This repository aims to help code beginners with their first successful pull request and open source contribution. :partying_face:
 ## If you are here to make Non Code Contribution like Blogs and dont know how to add it use this [template](https://github.com/Sajiyah-Salat/BlogWeb/blob/main/Template%20for%20Blogs)
 
- # Still you dont get it DM me [here](https://www.linkedin.com/in/sajiya-salat-0a2a78245/)
+ Still you dont get it DM me [here](https://www.linkedin.com/in/sajiya-salat-0a2a78245/)
 This is a beginner-friendly repo, where you can be as much creative as you can with HTML, CSS and JS.
 
 > **Rules for the Contribution.**
