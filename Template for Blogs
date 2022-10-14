@@ -33,18 +33,18 @@
 
         </div>
     </nav>
-    <div class="post-img">
-        <img src="img/11.svg" alt="">
+    <div class="// Your Image Name here">
+        <img src="your image link" alt="">
     </div>
 
     <div class="blog-post-content max-width-2 m-auto my-2">
         <div class=content-left">
-            <h1 class="font1">// Blog Title here</h1>
+            <h1 class="font1">// ## Blog Title here</h1>
             <div class="blogpost-meta">
                 <div class="author-info">
                     <div>
                         <b>
-                            Author - //your Name here
+                            Author - // ## your Name here
                         </b>
                     </div>
                     <div>/// Date and Time to read</div>
@@ -75,7 +75,7 @@
                 </div>
             </div>
             <p class="font1">
-            // Write your Blog here
+            // ##Write your Blog here
 
         </div>
         <div class="max-width-1 m-auto">
