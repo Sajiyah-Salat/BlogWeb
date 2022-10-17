@@ -3,54 +3,17 @@
 <html lang="en">
 
 <head>
-    <script src=
-"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
-    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/util.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/css/mobile.css">
+    <link rel="stylesheet" href="./css/util.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/css/mobile.css">
     <title>Sajiyah's first website</title>
-    <style>
-        body{
-        padding:10% 3% 10% 3%;
-        
-        }
-        img{
-            height:140px;
-                width:140px;
-        }
-        h1{
-        color: #32a852;
-        }
-        .mode {
-            float:right;
-        }
-        .change {
-            cursor: pointer;
-            border: 1px solid #555;
-            border-radius: 40%;
-            width: 20px;
-            
-            padding: 5px;
-            margin-left: 8px;
-        }
-        .dark{
-            background-color: #222;
-            color: #e6e6e6;
-        }
-    </style>
 </head>
 
-<body>
-    <div class="mode">
-        Dark mode:            
-        <span class="change">OFF</span>
-    </div>
-    <nav class="navigation max-width-1 m-auto">
-        <div class="nav-left">
+<body style="">
+    <nav class="navigation max-width">
             <a href="/">
                 <span><img src="img/logo.png" width="94px" alt="iBlog"></span>
             </a>
@@ -60,34 +23,32 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
 
-        </div>
-        <div class="nav-right">
             <form action="/search.html" method="get">
                 <input class="form-input" type="text" name="query" placeholder="Article Search">
                 <button class="btn">Search</button>
             </form>
 
-        </div>
     </nav>
-    <div class="max-width-1 m-auto">
-        <hr>
-    </div>
     <div class="content max-width-1 m-auto my-2">
         <div class="content-left">
             <h1> The heaven for bloggers</h1>
-            <p> IBlog is a website which lets you submit an article which upon approval
-				will be up on our website and you can get a good amount of reach from here!
+            <p> <b>IBlog is a website which lets you submit an article which upon approval
+                    will be up on our website and you can get a good amount of reach from here!
+                  
+                    This website offers many experience from my life. I am a blogger,Youtuber,Content
+                    Creator,Writer,Sketch Artist,Gardner,Exercise Enthusiast and lot more.
+                    Also i am a first year BCA student at Manipal Univesity Jaipur through online mode.I have 20k views
+                    on my channel, 116 followes on linkedin.
+                    Any changes suggestion is helpful Also if you change anything and make it better i will appreciate
+                    you personally on my socials.
+                    This website is designed and coded by myself but the credit goes to Code With Harry as I have made
+                    this website for a learning purpose as I don't know what is web devlopment and how to do it,will
+                    surely add backend to it and make this website for a regular use Inshallah.
+            </p>
 
-				This website offers many experience from my life. I am a blogger,Youtuber,Content
-				Creator,Writer,Sketch Artist,Gardner,Exercise Enthusiast and lot more.
-				Also i am a first year BCA student at Manipal Univesity Jaipur through online mode.I have 20k views
-				on my channel, 116 followes on linkedin.
-				Any changes suggestion is helpful Also if you change anything and make it better i will appreciate
-				you personally on my socials.
-				This website is designed and coded by myself but the credit goes to Code With Harry as I have made
-				this website for a learning purpose as I don't know what is web devlopment and how to do it,will
-				surely add backend to it and make this website for a regular use Inshallah.</p>
-		</div>
+
+           
+        </div>
         <div class="content-right">
             <img src="img/home.svg" alt="iBlog">
         </div>
@@ -149,24 +110,13 @@
             </div>
         </div>
     </div>
-    </div>
-
-
+    
+    
     <div class="footer">
         <p>Copyright &copy; iBlog.com</p>
         <a href="https://www.vecteezy.com/free-vector/type-writer">Vector Credits:Vecteezy</a>
-        <script>
-            $( ".change" ).on("click", function() {
-                if( $( "body" ).hasClass( "dark" )) {
-                    $( "body" ).removeClass( "dark" );
-                    $( ".change" ).text( "OFF" );
-                } else {
-                    $( "body" ).addClass( "dark" );
-                    $( ".change" ).text( "ON" );
-                }
-            });
-        </script>
+    </div>
 </body>
 
- 
+</html>
  
