@@ -1,5 +1,8 @@
 # BlogWeb
 This Website is Made with the use of only html and css so Any beginner person can contribute in this project. You can check live webite here and make changes according to it.If you want to do Non-code contribution you cna add your written blog in this.
+
+## Must Read
+I have Accidently Deleted my css folder. So I would like you guys to help me making it from scratch you have seen my website but if i will deploy it again it will not look good without css so hope you guys can help me with that.. 
 ## This repo will be partcipating in the [Hacktoberfest](https://hacktoberfest.com/) 2022.
 
 ![](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)
@@ -23,8 +26,12 @@ This is a beginner-friendly repo, where you can be as much creative as you can w
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1. Fork the Project
-2. Create your folder (`git checkout -b dev/Feature`)
-3. Commit your Changes (`git commit -m 'Add some cool Feature or Blog'`)
-4. Push to the Branch (`git push origin web/Feature`)
-5. Open a Pull Request
+1. Fork this repository.
+2. Clone your forked copy of the project(`git clone https://github.com/Sajiyah-Salat/BlogWeb.git`)
+3. Navigate to the project directory(`cd BlogWeb`)
+4. Create a new branch(`git checkout -b YourBranchName`)
+5. Make changes in source code.
+6. Stage your changes(`git add .`) & commit your changes(` git commit -m "<your_commit_message>"`)
+7. Push your local commits to the remote repo(` git push origin YourBranchName`)
+8. Create a PR
+
