@@ -1,5 +1,8 @@
 # BlogWeb
 This Website is Made with the use of only html and css so Any beginner person can contribute in this project. You can check live webite here and make changes according to it.If you want to do Non-code contribution you cna add your written blog in this.
+
+## Must Read
+I have Accidently Deleted my css folder. So I would like you guys to help me making it from scratch you have seen my website but if i will deploy it again it will not look good without css so hope you guys can help me with that.. 
 ## This repo will be partcipating in the [Hacktoberfest](https://hacktoberfest.com/) 2022.
 
 ![](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)
