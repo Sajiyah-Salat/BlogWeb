@@ -1,20 +1,21 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    background-color: #082032;
-    color: #9a9ea1;
+  /* background-color: #082032; */
+  color: #9a9ea1;
 }
 
-
+/* 
 .navigation {
     display: flex;
     font-size: 31px;
     align-items: center;
     width: 100%;
-    height: 60px;
-    background-color: #263859;
+    height: 80px;
+    padding: 10px auto;
+    background-color: #FCE38A;
     justify-content: space-around;
     font-family: var(--font2);
 }
@@ -23,7 +24,7 @@ body {
     font-size: 35px;
     padding-top: 10px;
 
-}
+} 
 
 .form-input{
     background-color: #5da4b4;
@@ -33,7 +34,7 @@ body {
 .navigation ul {
     align-items: center;
     font-size: 22px;
-    /* font-family: var(--font1); */
+    font-family: var(--font1);
 }
 
 .navigation ul li {
@@ -71,103 +72,131 @@ body {
 .navigation ul li a:hover {
     color: var(--main-bg-color);
 }
+ 
+*/
+
+/* bootstrap nav bar start  */
+
+a.nav-link {
+  font-size: 1.2rem;
+  padding: 5px 20px !important;
+}
+/* bootstrap nav bar end  */
+
+/* Header start   */
+header {
+  background: url(../src/img/header-img.jpg);
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: #647e68;
+  background-color: #fff7e9;
+  border-radius: 20px;
+  padding: 10px 50px;
+  width: fit-content;
+}
+
+/* Header end   */
 
 .content {
-    display: flex;
-    height: 100%;
-    /* background-color: #c3f4f4; */
-    margin-top: 32px;
-    padding: 9px;
-    position: relative;
-
+  /* display: flex; */
+  height: 100%;
+  /* background-color: #c3f4f4; */
+  margin-top: 32px;
+  padding: 50px 10px;
+  position: relative;
 }
 
 .content::after {
-    content: "";
-    background-image: url('../img/backgroundmain.jpg');
-    position: absolute;
-    width: 100%;
-    height: inherit;
-    opacity: 0.4;
+  content: "";
+  background-image: url("../img/backgroundmain.jpg");
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.4;
 }
 
 .content-left {
-    /* width: 50%; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 50px;
-    z-index: 1;
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding: 50px; */
+  z-index: 1;
 }
 
 .content-right {
-    /* width: 50%; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  /* width: 50%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .content-right img {
-    height: 300px;
-    border: 2px solid black;
-    border-radius: 200px;
+  height: 300px;
+  /* border: 2px solid black; */
+  /* border-radius: 5px; */
 }
 
 .home-articles {
-    padding: 18px;
-    background-color: #115173;
+  padding: 18px;
+  background-color: #115173;
 
-    margin-top: 23px;
-   position: relative;
+  margin-top: 23px;
+  position: relative;
 }
 
 .year-box {
-    position: absolute;
-    width: 165px;
-    height: 145px;
-    /* background-color: red; */
-    right: 0px;
-    top: 25px;
-    font-size: 21px;
-
+  position: absolute;
+  width: 165px;
+  height: 145px;
+  /* background-color: red; */
+  right: 0px;
+  top: 25px;
+  font-size: 21px;
 }
 
 .year-box div {
-    margin: 12px 0px;
-
+  margin: 12px 0px;
 }
 
 .home-article {
-    display: flex;
-    margin: 25px;
+  display: flex;
+  margin: 25px;
 }
 
 .home-article img {
-    width: 300px;
+  width: 300px;
 }
 
 .home-article-content {
-    align-self: center;
-    padding: 25px;
+  align-self: center;
+  padding: 25px;
 }
 
 .home-article-content a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .footer {
-    height: 50px;
-    align-self: flex-end;
-    background-color: #053F5E;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: black;
-    flex-direction: column;
-    margin-top: 25%;
+  align-self: flex-end;
+  background-color: #e1ceb5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  flex-direction: column;
+  margin-top: 25%;
+  padding: 20px;
 }
 
 .footer a {
-    color: black;
+  color: black;
 }
