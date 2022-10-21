@@ -12,27 +12,23 @@
 </head>
 
 <body>
-    <nav class="navigation max-width-1 m-auto">
-        <div class="nav-left">
-            <a href="/">
+    <nav class="navigation max-width m-auto">
+        <div class="navigation">
+            <a href="/" id="logo">
                 <span><img src="img/logo.png" width="94px" alt="iBlog"></span>
             </a>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/">About</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
-
-        </div>
-        <div class="nav-right">
-            <form action="/search.html" method="get">
-                <input class="form-input" type="text" name="query" placeholder="Article Search">
-                <button class="btn">Search</button>
-            </form>
-
+                <ul id="nav-items">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+                <form action="/search.html" method="get">
+                    <input class="form-input" type="text" name="query" placeholder="Article Search">
+                    <button class="btn">Search</button>
+                </form>
         </div>
     </nav>
-    <div class="max-width-1 m-auto">
+    <div class="max-width m-auto">
         <hr>
     </div>
 
@@ -58,7 +54,6 @@
                 <a href="blogspot.html">
                     <h3>The Miracle of Exercise</h3>
                 </a>
-                <!-- <h1>Lorem ipsum dolor sit amet consectetur</h1> -->
                 <span>Salat Sajiyah</span>
                 <span>31 August 6 min read</span>
             </div>
@@ -72,7 +67,6 @@
             <div class="home-article-content font1">
                 <a href="blogspot2.html">
                     <h3>The charming Toaday</h3>
-                </a> <!-- <h1>Lorem ipsum dolor sit amet consectetur</h1> -->
                 <span>Salat Sajiyah</span>
                 <span>31 August 6 min read</span>
             </div>
@@ -85,17 +79,19 @@
             <div class="home-article-content font1">
                 <a href="blogspot3.html">
                     <h3>Fire within you</h3>
-                </a> <!-- <h1>Lorem ipsum dolor sit amet consectetur</h1> -->
+                </a> 
                 <span>Salat Sajiyah</span>
                 <span>31 August 6 min read</span>
             </div>
         </div>
     </div>
-
-    <div class="footer">
-        <p>Copyright &copy; iBlog.com</p>
-        <a href="https://www.vecteezy.com/free-vector/type-writer">Vector Credits:Vecteezy</a>
-    </div>
+    <footer>
+        <div class="footer">
+            <p>Copyright &copy; iBlog.com</p>
+            <a href="https://www.vecteezy.com/free-vector/type-writer">Vector Credits:Vecteezy</a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
 </body>
 
 </html>

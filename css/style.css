@@ -21,8 +21,9 @@ body {
 
 .navigation span {
     font-size: 35px;
+    display: flex;
+    justify-self: flex-start;
     padding-top: 10px;
-
 }
 
 .form-input{
@@ -62,11 +63,11 @@ body {
 }
 .navigation ul li a {
     display: inline-block;
-    width: auto;
-    height: auto;
+    text-align: center;
     text-decoration: none;
     color: #9a9ea1;
 }
+
 
 .navigation ul li a:hover {
     color: var(--main-bg-color);
@@ -157,15 +158,22 @@ body {
 }
 
 .footer {
+    display: block;
     height: 50px;
+    width: 100vw;
     align-self: flex-end;
+    justify-self:center;;
     background-color: #053F5E;
     display: flex;
     align-items: center;
     justify-content: center;
     color: black;
     flex-direction: column;
-    margin-top: 25%;
+}
+
+footer{
+    position:absolute;
+    top:calc(100vh - 50px);
 }
 
 .footer a {
