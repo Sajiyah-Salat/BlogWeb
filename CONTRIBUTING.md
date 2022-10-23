@@ -52,7 +52,7 @@ Never made an open source contribution before? Wondering how contributions work 
 
    <br>
 
-8. Add the changes to the staging are and commit them to the branch you are working on
+8. Add the changes to the staging and commit them to the branch you are working on
 
    <br>
 
@@ -84,4 +84,4 @@ Never made an open source contribution before? Wondering how contributions work 
 
 ---
 
-### THANKS FRR YOUR CONTRIBUTION! ❤️🌟
+### THANKS FOR YOUR CONTRIBUTION! ❤️🌟
