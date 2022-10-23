@@ -1,67 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Potta+One&family=Roboto:wght@300&display=swap');:root {
-    --main-bg-color: #ebebeb;
-    --font1: font-family: 'Poppins', sans-serif;
-    --font2: font-family: 'Roboto', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
+:root {
+  --main-bg-color: #ebebeb;
+  --font1: "Poppins", sans-serif;
+  --font2: "Nunito", sans-serif;
 }
 
-.font1 {
-    font-family: var(--font1);
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font1);
+}
+
+p,
+a,
+span {
+  font-family: var(--font2);
+  font-weight: 400;
+}
+
+/* .font1 {
+  font-family: var(--font1);
 }
 
 .font2 {
-    font-family: var(--font2);
-}
+  font-family: var(--font2);
+} */
 
-.max-width{
-    width: 100%;
+.max-width {
+  width: 100%;
 }
 
 .max-width-1 {
-    max-width: 80vw;
+  max-width: 90vw;
 }
 
 .max-width-2 {
-    max-width: 60vw;
+  max-width: 60vw;
 }
-
+/* 
 .m-auto {
-    margin: auto;
+  margin: auto;
 }
 
 .my-2 {
-    margin-bottom: 32px;
-    margin-top: 32px;
-
-}
+  margin-bottom: 32px;
+  margin-top: 32px;
+} */
 
 .btn {
-    background-color: #32899c;
-    padding: 0px 15px;
-    border-radius: 5px;
-    font-family: var(--font1);
-    font-size: 16px;
-    cursor: pointer;
-    color:#f4f4f5;
-    transition: all 0.3s ease-in-out;
+  background-color: #32899c;
+  padding: 0px 15px;
+  border-radius: 5px;
+  font-family: var(--font1);
+  font-size: 16px;
+  cursor: pointer;
+  color: #f4f4f5;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn:hover {
-    background-color: #5da4b4;
+  background-color: #5da4b4;
 }
 
 .form-input {
-    /* padding: 5px 5px; */
+  /* padding: 5px 5px; */
 
-    font-size: 16px;
-    border-radius: 7px;
-    font-family: var(--font1);
+  font-size: 16px;
+  border-radius: 7px;
+  font-family: var(--font1);
 }
 
 .form-box input,
 textarea {
-    padding: 18px;
-    font-size: 18px;
-    font-family: var(--font1);
-    border-radius: 5px;
+  padding: 18px;
+  font-size: 18px;
+  font-family: var(--font1);
+  border-radius: 5px;
 }
