@@ -34,4 +34,6 @@ Contributions are what make the open source community such an amazing place to b
 6. Stage your changes(`git add .`) & commit your changes(` git commit -m "<your_commit_message>"`)
 7. Push your local commits to the remote repo(` git push origin YourBranchName`)
 8. Create a PR
-
+<br></br>
+> ## Thanks to all our contributors
+<img src = "https://contrib.rocks/image?repo=Sajiyah-Salat/BlogWeb"/>
