@@ -31,8 +31,7 @@ h6 {
 }
 
 .iBlog img {
-    width: 43px;
-    height: 43px;
+    width: 35px;
 }
 
 .iBlog {
@@ -65,7 +64,13 @@ h6 {
     padding: 4px;
     background-color: #1792d2;
     color: white;
-    border: none;
+    border:none;
+    border-radius: 3px;
+}
+
+.search-bar input:focus:placeholder-shown
+{
+    opacity: .7;
 }
 
 nav ul {
@@ -244,9 +249,9 @@ aside h4 {
 }
 
 .aside-main img {
-    width: 65%;
+    width: 50%;
     object-fit: cover;
-
+    margin-top: 15px;
 }
 
 .aside-other h5 {
@@ -274,6 +279,8 @@ aside h4 {
 .small-part img {
     width: 80%;
     height: 70px;
+    margin-top: 10px;
+    margin-bottom: 4px;
     object-fit: cover;
 }
 
