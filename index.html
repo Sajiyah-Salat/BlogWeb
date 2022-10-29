@@ -1,203 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- favicon  -->
-    <link
-      rel="shortcut icon"
-      href="./src/img/favicon.png"
-      type="image/x-icon"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iBlog - The Heaven for bloggers</title>
+    <link rel="shortcut icon" href="src\img\favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <!-- bootstrap css  -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
+<body>
 
-    <link rel="stylesheet" href="./css/util.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/css/mobile.css" />
-
-    <title>Sajiyah's first website</title>
-  </head>
-
-  <body>
-    <!-- <nav class="navigation max-width">
-            <a href="/">
-                <span><img src="./src/img/logo.png" width="60px" alt="iBlog"></span>
-            </a>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-
-            <form action="/search.html" method="get">
-                <input class="form-input" type="text" name="query" placeholder="Article Search">
-                <button class="btn">Search</button>
-            </form>
-
-    </nav> -->
-
-    <!-- bootstrap nav bar start  -->
-
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid max-width-1">
-        <a class="navbar-brand" href="#">
-          <img src="./src/img/logo.png" alt="Bootstrap" width="30" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto ms-auto mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about-us">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">contact</a>
-            </li>
-          </ul>
-          <form
-            class="d-flex"
-            action="./search.html"
-            method="get"
-            role="search"
-          >
-            <input
-              class="form-control me-2 form-input"
-              type="text"
-              name="query"
-              placeholder="Article Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
-      </div>
-    </nav>
-
-    <!-- bootstrap nav bar end  -->
-
-    <!-- Header start  -->
     <header>
-      <div>
-        <h1>The Heaven For Bloggers - <span>iBlog</span></h1>
-      </div>
+        <div class="container">
+            <div class="cont-1">
+                <div class="site-heading">
+                    <div class="iBlog">
+                        <img src="src\img\favicon.png" alt="">
+                        <h1>iBlog</h1>
+                    </div>
+                    <h6>The Heaven for bloggers</h6>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a class="home" href="index.html">Home</a></li>
+                        <li><a href="#about-section">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            <form class="search-bar" action="search.html">
+                <input type="text" placeholder="Search Article">
+                <button type="submit ">Search</button>
+            </form>
+        </div>
     </header>
-    <!-- Header end  -->
 
-    <!-- About Us start  -->
 
-    <div id="about-us" class="content max-width-1 m-auto my-2 row">
-      <div class="content-left col-lg-6">
+    <div class="main-container">
+        <main>
+            <div class="featured">
+                <img src="https://images.unsplash.com/photo-1533090368676-1fd25485db88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+                    alt="">
+                <h2>Finding simplicity in life</h2>
+                <p class="info">August 19, 2022 | 3 comments </p>
+                <p class="topic">
+                    Simplicity in life is a state of mind where simplicity has been achieved. Living a simple life does not mean living an impoverished one, though it may seem like that to some at first. It rather means appreciating the little things in life more than the material things.</p>
+                <a href="#">Continue Reading</a>
+            </div>
+            <hr>
+            <div class="feed">
+                <img src="https://blogweb-c94c0.web.app/img/exercise.webp" alt="">
+                <h3>The Miracles of exercise</h3>
+                <h6>by Salat Sajiyah </h6>
+                <p>At first this term for me only means pushups , lifting dumbells and gyms, But as I started to go deep
+                    in it . It is beyond my imagination.
+                </p>
+                <a href="blogspot.html">Continue Reading
+                </a>
+                <br>
+
+                <p class="info"> August 19, 2022 | 3 comments </p>
+            </div>
+            <div class="feed">
+                <img src="https://blogweb-c94c0.web.app/img/today.jpg" alt="">
+                <h3>The charming Today</h3>
+                <h6>by Salat Sajiyah </h6>
+                <p>Dont skip everything to Tomorrow.Do it Today as you will never know that Tomorrow will change to
+                    yeaterday. Make three type of chart of long term goals short term goals and today goals.</p>
+
+                <a href="blogspot2.html">Continue Reading
+                </a>
+                <p class="info"> August 19, 2022 | 3 comments </p>
+            </div>
+            <div class="feed">
+                <img src="https://blogweb-c94c0.web.app/img/pexels-pixabay-270815_1.jpeg" alt="">
+                <h3>Fire within you</h3>
+                <h6>by Salat Sajiyah </h6>
+
+                <p>A fire which never let you sleep more than 7 hours. A fire which have a patience for a bright
+                    future.A fire which pushes you everyday to learn something new, no matter if it is make a perfect
+                    roti or to learn a digital marketing.</p>
+
+                <a href="#">Continue Reading
+                </a>
+                <p class="info"> August 19, 2022 | 3 comments </p>
+            </div>
+        </main>
+
+
+        <aside>
+            <div class="aside-main">
+                <h4>ABOUT US</h4>
+                <img src="src\img\favicon.png" alt="">
+                <p>
+                    <spa class="bold">iBlog</spa> is a website which lets you submit an article which upon approval will
+                    be up on our website and
+                    you can get a good amount of reach from here!<a href="#about-section">
+                        Read more</a>
+                </p>
+            </div>
+            <div class="aside-other">
+
+
+                <h4>RECENT POSTS</h4>
+
+                <div class="small-part">
+
+                    <a href="#"><img src="https://blogweb-c94c0.web.app/img/pexels-pixabay-270815_1.jpeg" alt="">
+                        <h5>Fire within you</h5>
+                    </a>
+                </div>
+                <div class="small-part">
+                    <a href="blogspot2.html"> <img src="https://blogweb-c94c0.web.app/img/today.jpg" alt="">
+                        <h5>The charming today</h5>
+                    </a>
+                </div>
+                <div class="small-part">
+                    <a href="blogspot.html">
+                        <img src="https://blogweb-c94c0.web.app/img/exercise.webp" alt="">
+                        <h5>The miracles of exercise</h5>
+                    </a>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <div class="about-section">
+        <a id="about-section"></a>
         <h1>About Us</h1>
-        <p>
-          IBlog is a website which lets you submit an article which upon
-          approval will be up on our website and you can get a good amount of
-          reach from here! This website offers many experience from my life. I
-          am a blogger,Youtuber,Content Creator,Writer,Sketch
-          Artist,Gardner,Exercise Enthusiast and lot more. Also i am a first
-          year BCA student at Manipal Univesity Jaipur through online mode.I
-          have 20k views on my channel, 116 followes on linkedin. Any changes
-          suggestion is helpful Also if you change anything and make it better i
-          will appreciate you personally on my socials. This website is designed
-          and coded by myself but the credit goes to Code With Harry as I have
-          made this website for a learning purpose as I don't know what is web
-          devlopment and how to do it,will surely add backend to it and make
-          this website for a regular use Inshallah.
-        </p>
-      </div>
-      <div class="content-right col-lg-5">
-        <img src="./src/img/about-us.jpg" alt="iBlog" />
-      </div>
-    </div>
-    <div class="max-width-1 m-auto">
-      <hr />
-    </div>
-    <div class="home-articles max-width-1 m-auto font1">
-      <div class="year-box adjust-year">
-        <div>
-          <h3>Year</h3>
-        </div>
-        <div><input type="radio" name="year" id="" />2021</div>
-        <div><input type="radio" name="year" id="" />2022</div>
-      </div>
-      <h2>Featured Articles</h2>
-      <div class="home-article">
-        <div class="home-article-img">
-          <img src="img/11.svg" alt="article" />
-        </div>
-        <div class="home-article-content font1">
-          <a href="blogspot.html">
-            <h3>The miracles of Exercise</h3>
-          </a>
-          <!-- <h1>Lorem ipsum dolor sit amet consectetur</h1> -->
-          <div>Salat Sajiyah</div>
-          <span>31 August | 6 min read</span>
-        </div>
-      </div>
+        <div class="about">
+            <div class="about-text">
 
-      <div class="home-article">
-        <div class="home-article-img">
-          <img src="fire.webp" alt="article" />
-        </div>
-        <div class="home-article-content font1">
-          <a href="blogspot2.html">
-            <h3>The charming Today</h3>
-          </a>
-          <!-- <h1>Lorem ipsum dolor sit amet consectetur</h1> -->
-          <div>Salat Sajiyah</div>
-          <span>31 August 6 min read</span>
-        </div>
-      </div>
+                <p>
+                    <b>iBlog</b> is a website which lets you submit an article which upon approval will be up on our website and you can get a good amount of
+                    reach from here! This website offers many experience from my life. I
+                    am a blogger,Youtuber,Content Creator,Writer,Sketch
+                    Artist,Gardner,Exercise Enthusiast and lot more. Also i am a first
+                    year BCA student at Manipal Univesity Jaipur through online mode.I
+                    have 20k views on my channel, 116 followes on linkedin. Any changes
+                    suggestion is helpful Also if you change anything and make it better i
+                    will appreciate you personally on my socials. This website is designed
+                    and coded by myself but the credit goes to Code With Harry as I have
+                    made this website for a learning purpose as I don't know what is web
+                    devlopment and how to do it,will surely add backend to it and make
+                    this website for a regular use Inshallah.
+                </p>
+            </div>
+            <div class="about-img"></div>
 
-      <div class="home-article">
-        <div class="home-article-img">
-          <img src="img/11.svg" alt="article" />
         </div>
-        <div class="home-article-content font1">
-          <a href="blogspot3.html">
-            <h3>Fire within you</h3>
-          </a>
-          <!-- <h1>Lorem ipsum dolor sit amet consectetur</h1> -->
-          <div>Salat Sajiyah</div>
-          <span>31 August 6 min read</span>
-        </div>
-      </div>
     </div>
 
-    <div class="footer">
-      <p>Copyright &copy; iBlog.com</p>
-      <a href="https://www.vecteezy.com/free-vector/type-writer"
-        >Vector Credits:Vecteezy</a
-      >
-    </div>
+    <footer>
+        iBlog
+        <br>
+        <span>Copyright 2022</span>
+    </footer>
 
-    <!-- bootstrap js  -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+
+</body>
+
 </html>
