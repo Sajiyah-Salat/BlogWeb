@@ -3,20 +3,24 @@
     background-color: #143774;
     color: white;
     padding: 30px;
+    margin-top: 15px;
     font-size: 0.9rem;
     line-height: 1.4;
     font-family: 'Lora', serif;
 }
-.Row {
-    display: table;
-    /* width: 100%; Optional */
-    table-layout: fixed;
-    border-spacing: 10px;
-    padding-top: 10px;
-    padding-bottom: 20px;
+
+.main {
+    display: inline-block;
+    padding-bottom: 10px;
 }
-.Column {
-    display: table-cell;
+
+.home-article {
+    display: block;
+    padding-left: 10px;
+    padding-top: 15px;
+    background: #f8f3f3;
+    border-bottom: 2px;
+    border-bottom-style: solid;
 }
 
 .home-article img {
@@ -25,6 +29,12 @@
     object-fit: cover;
     float:none;
 }
+
+.year-box {
+    background: #E1E1E1;
+    border-style: dotted;
+}
+
 /* ! Media queries */
 /* for above 1000px screen */
 @media screen and (min-width:1000px) {
