@@ -9,30 +9,63 @@
     font-family: 'Lora', serif;
 }
 
-.main {
-    display: inline-block;
+.content {
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 10px;
+    height: 80%;
+    width: 80%;
+    text-align: left;
 }
 
-.home-article {
+.row {
+    display: table;
+    table-layout: fixed;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.column {
+    display: table-cell;
+    width: 50%;
+}
+#parent_non_content{
+    display: flex!important;
+}
+#title_search{
+    flex: 1 !important;
+}
+
+.home-articles {
     display: block;
-    padding-left: 10px;
+    padding-left: 50px;
     padding-top: 15px;
-    background: #f8f3f3;
+    background: #e1ded8;
+    /* background: #f8f3f3; */
     border-bottom: 2px;
     border-bottom-style: solid;
 }
 
+/* .home-article{
+    margin: auto;
+    width: 50%;
+} */
+
 .home-article img {
-    width: 260px;
+    width: 300px;
     padding-right: 1em;
     object-fit: cover;
     float:none;
 }
 
-.year-box {
-    background: #E1E1E1;
-    border-style: dotted;
+.home-article-content{
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+
+#year_option {
+    width: fit-content;
 }
 
 /* ! Media queries */
@@ -87,26 +120,12 @@
     .feed .info {
         font-size: .58rem;
     }
-
-    .about-img {
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin: auto;
-        opacity: 0.5;
-        z-index: -1;
-    }
-
-    .about-text {
-        width: 100%;
-    }
 }
 
 @media (max-width:755px) {
     .feed .info {
         font-size: .5rem;
     }
-
 }
 
 @media (max-width:693px) {
@@ -121,40 +140,6 @@
     main {
         width: 92%;
         margin: auto;
-    }
-
-    aside {
-        width: 90%;
-    }
-
-    .aside-main,
-    .aside-other {
-        border: none;
-    }
-
-
-    .aside-main {
-        display: none;
-    }
-
-    .aside-main img {
-        width: 100px;
-        float: left;
-    }
-
-    .aside-other {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-
-    .aside-other h4 {
-        flex-basis: 100%;
-        margin-bottom: 2.5em;
-    }
-
-    .aside-main h4 {
-        margin-bottom: 1.8em;
     }
 }
 
