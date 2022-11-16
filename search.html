@@ -5,96 +5,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/util.css">
+    <!-- <link rel="stylesheet" href="css/util.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/css/mobile.css">
+    <link rel="stylesheet" href="css/mobile.css"> -->
+    <link rel="shortcut icon" href="src\img\favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/search.css" >
     <title>Heaven for bloggers</title>
 </head>
 
 <body>
-    <nav class="navigation max-width-1 m-auto">
-        <div class="nav-left">
-            <a href="/">
-                <span><img src="img/logo.png" width="94px" alt="iBlog"></span>
-            </a>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/">About</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
-
-        </div>
-        <div class="nav-right">
-            <form action="/search.html" method="get">
-                <input class="form-input" type="text" name="query" placeholder="Article Search">
-                <button class="btn">Search</button>
+    <header>
+        <div class="container">
+            <div class="cont-1">
+                <div class="site-heading">
+                    <div class="iBlog">
+                        <img src="src\img\favicon.png" alt="">
+                        <h1>iBlog</h1>
+                    </div>
+                    <h6>The Heaven for bloggers</h6>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <form class="search-bar" action="search.html">
+                <input type="text" placeholder="Search Article">
+                <button type="submit ">Search</button>
             </form>
-
         </div>
-    </nav>
+    </header>
     <div class="max-width-1 m-auto">
         <hr>
     </div>
 
+    <div class="main">
+        <div class="content">
+            <div class="row" id="parent_non_content">
+                <span class="column child" id="title_search">
+                    <h2>Search Results For Blogs</h2>
+                </span>
+                <span class="column child" id="year_option">
+                    <div class="year-box adjust-year">
+                        <h3>Year : </h3>
+                        <input type="radio" name="year" id="">2021
+                        <input type="radio" name="year" id="">2022
+                    </div>
+                </span>
+            </div>
+            <div class="home-articles">
+                <div class="home-article row">
+                    <div class="home-article-img">
+                        <img src="https://blogweb-c94c0.web.app/img/exercise.webp" alt="article">
+                    </div>
+                    <div class="home-article-content font1 column">
+                        <a href="blogspot.html">
+                            <h3>The Miracle of Exercise</h3>
+                        </a>
+                        <!-- <h1>Lorem ipsum dolor sit amet consectetur</h1> -->
+                        <span>Salat Sajiyah</span>
+                        <span>31 August 6 min read</span>
+                    </div>
+                </div>
 
-    <div class="home-articles max-width-1 m-auto font1">
+                <div class="home-article row">
+                    <div class="home-article-img">
+                        <img src="https://blogweb-c94c0.web.app/img/today.jpg" alt="article">
+                    </div>
+                    <div class="home-article-content font1 column">
+                        <a href="blogspot2.html">
+                            <h3>The charming Toaday</h3>
+                        </a> <!-- <h1>Lorem ipsum dolor sit amet consectetur</h1> -->
+                        <span>Salat Sajiyah</span>
+                        <span>31 August 6 min read</span>
+                    </div>
+                </div>
 
-        <h2>Search Results For</h2>
-        <div class="year-box adjust-year">
-            <div>
-                <h3>Year</h3>
-
-            </div>
-            <div> <input type="radio" name="year" id="">2021
-            </div>
-            <div> <input type="radio" name="year" id="">2022
-            </div>
-        </div>
-        <div class="home-article">
-            <div class="home-article-img">
-                <img src="img/11.svg" alt="article">
-            </div>
-            <div class="home-article-content font1">
-                <a href="blogspot.html">
-                    <h3>The Miracle of Exercise</h3>
-                </a>
-                <!-- <h1>Lorem ipsum dolor sit amet consectetur</h1> -->
-                <span>Salat Sajiyah</span>
-                <span>31 August 6 min read</span>
-            </div>
-        </div>
-
-        <div class="home-article">
-
-            <div class="home-article-img">
-                <img src="img/11.svg" alt="article">
-            </div>
-            <div class="home-article-content font1">
-                <a href="blogspot2.html">
-                    <h3>The charming Toaday</h3>
-                </a> <!-- <h1>Lorem ipsum dolor sit amet consectetur</h1> -->
-                <span>Salat Sajiyah</span>
-                <span>31 August 6 min read</span>
-            </div>
-        </div>
-
-        <div class="home-article">
-            <div class="home-article-img">
-                <img src="img/11.svg" alt="article">
-            </div>
-            <div class="home-article-content font1">
-                <a href="blogspot3.html">
-                    <h3>Fire within you</h3>
-                </a> <!-- <h1>Lorem ipsum dolor sit amet consectetur</h1> -->
-                <span>Salat Sajiyah</span>
-                <span>31 August 6 min read</span>
+                <div class="home-article row">
+                    <div class="home-article-img">
+                        <img src="https://blogweb-c94c0.web.app/img/pexels-pixabay-270815_1.jpeg" alt="article">
+                    </div>
+                    <div class="home-article-content font1 column">
+                        <a href="blogspot3.html">
+                            <h3>Fire within you</h3>
+                        </a> <!-- <h1>Lorem ipsum dolor sit amet consectetur</h1> -->
+                        <span>Salat Sajiyah</span>
+                        <span>31 August 6 min read</span>
+                    </div>
+                </div>
+                <div class="home-article row">
+                    <div class="home-article-img">
+                        <img src="https://images.unsplash.com/photo-1533090368676-1fd25485db88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" alt="article">
+                    </div>
+                    <div class="home-article-content font1 column">
+                        <a href="#">
+                            <h3>Finding simplicity in life</h3>
+                        </a> <!-- <h1>Lorem ipsum dolor sit amet consectetur</h1> -->
+                        <span>Salat Sajiyah</span>
+                        <span>19 August 6 min read</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <div class="footer">
         <p>Copyright &copy; iBlog.com</p>
-        <a href="https://www.vecteezy.com/free-vector/type-writer">Vector Credits:Vecteezy</a>
     </div>
 </body>
 
