@@ -34,6 +34,9 @@ Contributions are what make the open source community such an amazing place to b
 6. Stage your changes(`git add .`) & commit your changes(` git commit -m "<your_commit_message>"`)
 7. Push your local commits to the remote repo(` git push origin YourBranchName`)
 8. Create a PR
+
+#### Congrats you have created your first ever pull request 
+**Please note there are specific folders for specific files. Please add your file in proper folder or else it will be rejected. If you have any doubts, add it in discussion section**
 <br></br>
 > ## Thanks to all our contributors
 <img src = "https://contrib.rocks/image?repo=Sajiyah-Salat/BlogWeb"/>
