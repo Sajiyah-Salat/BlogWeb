@@ -37,7 +37,8 @@ span {
 }
 
 .max-width-2 {
-  max-width: 60vw;
+  max-width: 70%;
+  margin: auto;
 }
 /* 
 .m-auto {
