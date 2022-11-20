@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+        </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +13,42 @@
     <link rel="stylesheet" href="css/blogspot.css">
     <link rel="stylesheet" href="css/css/mobile.css">
     <title>Heaven for bloggers</title>
+    <style>
+        body{
+        padding:10% 3% 10% 3%;
+        
+        }
+        img{
+            height:140px;
+                width:140px;
+        }
+        h1{
+        color: #32a852;
+        }
+        .mode {
+            float:right;
+        }
+        .change {
+            cursor: pointer;
+            border: 1px solid #555;
+            border-radius: 40%;
+            width: 20px;
+            
+            padding: 5px;
+            margin-left: 8px;
+        }
+        .dark{
+            background-color: #222;
+            color: #e6e6e6;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="mode">
+        Dark mode:            
+        <span class="change">OFF</span>
+    </div>
     <nav class="navigation max-width-1 m-auto">
         <div class="nav-left">
             <a href="/">
@@ -33,21 +69,21 @@
 
         </div>
     </nav>
-    <div class="// Your Image Name here">
-        <img src="your image link" alt="">
+    <div class="post-img">
+        <img src="img/11.svg" alt="">
     </div>
 
     <div class="blog-post-content max-width-2 m-auto my-2">
-        <div class="content-left">
-            <h1 class="font1">The writing process for all beginners.</h1>
+        <div class=content-left">
+            <h1 class="font1">The charming Today</h1>
             <div class="blogpost-meta">
                 <div class="author-info">
                     <div>
                         <b>
-                            Author - // your name here
+                            Author - Salat Sajiyah
                         </b>
                     </div>
-                    <div>15 October | 1 minute read</div> 
+                    <div>04 January. 6 min read</div>
                 </div>
                 <div class="social">
                     <svg width="29" height="29" class="hk">
@@ -74,16 +110,14 @@
 
                 </div>
             </div>
-            <p class="font1">
-                💡Prewriting- In this stage, you write ideas for the topic you gonna write about. Here you think and decide what to write and what not to write. Most simply, It is a rough page where you can practice a mindmap methodology.
+            <p class="font1">Everyday Wake up with a huge smile , with a hope that today will be better day that today
+                the hole will be bury completely , that today I will not have to smile fake, That today I will be free
+                from all fears, that today there will be a sign there will be a power which gave me strength , that
+                today I will be free from all sadness, that today A sun of mine will rise .But it is not that today,
+                Till now that today did’nt came , Instead I became more and more lonely and I am just became a prisoner
+                of my mind, but still have a hope that today will come and it will be far better than I have imagined
 
-                💡Writing- Here you draft your actual document, You write whatever you want to say about the topic, Obviously, after doing good research about the topic. You write everything here about the topic and re-read the same.
                 
-                💡Editing- Now, this is the final round and it is a crucial one. Here you rearrange your words, sentences, etc, and take out and add parts( if necessary). You do proofreading, where you check every spelling, and grammatical error, correct your small mistakes, etc.
-                
-                💡And at last, you should have someone to check your work and give some feedback about the same.
-             </p>
-
         </div>
         <div class="max-width-1 m-auto">
             <hr>
@@ -142,6 +176,17 @@
             <p>Copyright &copy; iBlog.com</p>
             <a href="https://www.vecteezy.com/free-vector/type-writer">Vector Credits:Vecteezy</a>
         </div>
+        <script>
+            $( ".change" ).on("click", function() {
+                if( $( "body" ).hasClass( "dark" )) {
+                    $( "body" ).removeClass( "dark" );
+                    $( ".change" ).text( "OFF" );
+                } else {
+                    $( "body" ).addClass( "dark" );
+                    $( ".change" ).text( "ON" );
+                }
+            });
+        </script>
 </body>
 
 </html>
