@@ -1,3 +1,6 @@
+![Website ss](https://user-images.githubusercontent.com/109643863/202892029-769d8e8f-8c6e-4339-baff-13513ea666a1.png)
+![Website ss2](https://user-images.githubusercontent.com/109643863/202892019-b4ae9d89-1b62-4900-aa11-147c1c106c1d.png)
+
 # BlogWeb
 This Website is Made with the use of only html and css so Any beginner person can contribute in this project. You can check live webite here and make changes according to it.If you want to do Non-code contribution you cna add your written blog in this.
 
