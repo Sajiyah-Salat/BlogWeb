@@ -9,9 +9,11 @@
     }
 
     img{
-        height: 7.252%;
-        width: 7.252%;
+        height: 3.252%;
+        width: 3.252%;
         padding: 0.65%;
+        margin-left: 3%;
+        margin-top: 1%;
     }
 
     h1,
@@ -41,6 +43,8 @@
 
     .mode {
         float:right;
+        margin-top: 5%;
+        margin-right: 5%;
     }
     .change {
         cursor: pointer;
@@ -54,4 +58,17 @@
     .dark{
         background-color: #222;
         color: #e6e6e6;
+    }
+
+    .home-article-img{
+        width: 20%;
+        height: 40%;
+    }
+    
+    .more-post{
+        margin-top: 0;
+    }
+
+    .home-article-content{
+        font-weight: bold;
     }
