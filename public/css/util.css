@@ -45,11 +45,6 @@ span {
   margin: auto;
 }
 
-.my-2 {
-  margin-bottom: 32px;
-  margin-top: 32px;
-} */
-
 .btn {
   background-color: #32899c;
   padding: 0px 15px;
@@ -79,4 +74,9 @@ textarea {
   font-size: 18px;
   font-family: var(--font1);
   border-radius: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: #32a852;
 }
