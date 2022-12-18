@@ -65,12 +65,11 @@ h6 {
     padding: 4px;
     background-color: #1792d2;
     color: white;
-    border:none;
+    border: none;
     border-radius: 3px;
 }
 
-.search-bar input:focus:placeholder-shown
-{
+.search-bar input:focus:placeholder-shown {
     opacity: .7;
 }
 
@@ -285,7 +284,7 @@ aside h4 {
     object-fit: cover;
 }
 
-footer {
+/* footer {
     text-align: center;
     background-color: #143774;
     color: white;
@@ -293,13 +292,13 @@ footer {
     font-size: 0.9rem;
     line-height: 1.4;
     font-family: 'Lora', serif;
-}
+} */
 
-footer span {
+/* footer span {
     opacity: 0.8;
     font-family: 'Ubuntu', sans-serif;
     font-size: 0.8rem;
-}
+} */
 
 
 /* ! About section */
@@ -463,7 +462,7 @@ footer span {
     }
 
     .feed img {
-        float:none;
+        float: none;
     }
 
     h6 {
