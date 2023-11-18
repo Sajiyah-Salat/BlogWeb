@@ -2,6 +2,7 @@
 ![Website ss2](https://user-images.githubusercontent.com/109643863/202892019-b4ae9d89-1b62-4900-aa11-147c1c106c1d.png)
 
 # BlogWeb
+#prianshu mishra 
 This website is made with the use of only HTML and CSS, so any beginner can contribute to this project. You can check the live website here and make changes accordingly. If you want to do a non-code contribution you can add your written blog to this.
 
 ## Must Read
