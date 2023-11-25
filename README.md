@@ -27,7 +27,7 @@ This is a beginner-friendly repo, where you can be as creative as you can with H
 
 ## Contributing
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. 
 
 1. Fork this repository.
 2. Clone your forked copy of the project (`git clone https://github.com/Sajiyah-Salat/BlogWeb.git`)

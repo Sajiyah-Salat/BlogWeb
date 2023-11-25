@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/search.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
 <body>
@@ -20,8 +21,8 @@
             <div class="cont-1">
                 <div class="site-heading">
                     <div class="iBlog">
-                        <img src="images/favicon.png" alt="">
-                        <h1>iBlog</h1>
+                       <a href="index.html"><img src="images/favicon.png" alt="logo"></a>
+                        <a href="index.html"><h1>iBlog</h1></a>
                     </div>
                     <h6>The Heaven for bloggers</h6>
                 </div>
@@ -41,7 +42,14 @@
             </form>
         </div>
     </header>
-
+          <!-- scroll down and up button -->
+    
+          <div class="scroll-up" onclick="scrollToTop()">
+            <i class="fas fa-chevron-up"></i>
+          </div>
+          <div class="scroll-down" onclick="scrollToBottom()">
+            <i class="fas fa-chevron-down"></i>
+          </div>
     <!-- Main container -->
     <div class="main-container">
         <main>
@@ -164,6 +172,20 @@
         </div>
     </div>
 
+
+    
+    
+      <!-- Your webpage content goes here -->
+    
+      <script>
+      function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+             }
+
+    function scrollToBottom() {
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }
+      </script>
     <!-- Footer -->
 
     <footer class="footer">

@@ -326,6 +326,37 @@ aside h4 {
 
 
 
+.scroll-up,
+.scroll-down {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.scroll-up:hover,
+.scroll-down:hover {
+  background-color: #555;
+}
+
+
+
+
+
+
+
+
+
+
 .about-img {
     width: 400px;
     height: 250px;
